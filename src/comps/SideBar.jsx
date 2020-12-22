@@ -3,7 +3,7 @@ import ProfilePic from "../images/2.jpg";
 
 function Sidebar() {
   return (
-    <div className="flex flex-col justify-between	w-80 h-screen bg-white overflow-scroll">
+    <div className="hidden lg:flex flex-col justify-between	w-80 h-screen bg-white overflow-scroll">
       <div className="mb-14">
         <img
           src={ProfilePic}
